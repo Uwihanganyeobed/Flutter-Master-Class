@@ -18,13 +18,11 @@ class MyApp extends StatelessWidget {
           elevation: 0,
           leading: IconButton(
               onPressed: () {
-                print("Menu Button clicked!");
               },
               icon: Icon(Icons.menu)),
           actions: [
             IconButton(
                 onPressed: () {
-                  print("Logout Button clicked!");
                 },
                 icon: Icon(Icons.logout))
           ],
@@ -66,7 +64,7 @@ class MyApp extends StatelessWidget {
         //   ]),
         //   padding: EdgeInsets.all(40),
         // )),
-
+// this list view we use it for scrolling comps
         body: ListView(
           children: [
             Container(
