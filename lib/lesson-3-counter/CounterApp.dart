@@ -36,7 +36,7 @@ class _CounterAppState extends State<CounterApp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Counter: ${counter}',
+              'Counter: ${counter > 5 ? 'Counter is greater than 5' : counter}',
               style: TextStyle(
                 color: Colors.black87,
                 fontSize: 40,
