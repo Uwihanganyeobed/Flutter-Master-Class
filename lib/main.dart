@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:introduction/todo-app/home_page.dart';
 
 void main() {
-
   //initialize a hive
-  Hive
 
   runApp(MyApp());
 }
