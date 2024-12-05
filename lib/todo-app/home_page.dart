@@ -60,8 +60,16 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Todo App'),
-          backgroundColor: Colors.yellow[200],
+          title: Text(
+            'Todo App',
+            style: TextStyle(
+              fontSize: 30,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+              fontFamily: 'Arial',
+            ),
+          ),
+          backgroundColor: Colors.yellowAccent[200],
           centerTitle: true,
           elevation: 0,
         ),
